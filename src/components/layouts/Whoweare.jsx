@@ -22,14 +22,18 @@ const Whoweare = () => {
               as={"h3"}
             />
             <Heading
-              className={"text-[#6C7D93] text-[18px] font-paprika leading-8 w-[440px] mt-4"}
+              className={
+                "text-[#6C7D93] text-[18px] font-paprika leading-8 w-[440px] mt-4"
+              }
               text={
                 "We are a Dhaka based Digital Communication Agency committed to creating an actionable strategy, online marketing & technology solution for our partners. As a multidisciplinary company, we operate as a unified, "
               }
               as={"p"}
             />
-            <Images className={"mt-8"} srcImg={whowedesignOne}/>
-            <Images srcImg={whowedesigntwo}/>
+            <div className="mr-6">
+              <Images className={"mt-8"} srcImg={whowedesignOne} />
+              <Images srcImg={whowedesigntwo} />
+            </div>
           </div>
         </Flex>
       </Container>

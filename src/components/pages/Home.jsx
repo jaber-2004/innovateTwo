@@ -1,12 +1,15 @@
-import Banner from "../layouts/Banner"
-
+import Banner from "../layouts/Banner";
+import Ourservices from "../layouts/Ourservices";
+import Whoweare from "../layouts/Whoweare";
 
 const Home = () => {
   return (
-<>
-<Banner/>
-</>
-  )
-}
+    <>
+      <Banner />
+      <Ourservices />
+      <Whoweare />
+    </>
+  );
+};
 
-export default Home
+export default Home;

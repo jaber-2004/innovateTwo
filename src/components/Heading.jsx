@@ -1,7 +1,10 @@
 const Heading = (props) => {
-
-let partan = /&([^&]+)&/g;
-let amin = props.text.replace(partan, "<span style=color:#FF7628> $1 </span>");
+  // DAYNAMICK 
+  let partan = /&([^&]+)&/g;
+  let amin = props.text.replace(
+    partan,
+    "<span style=color:#FF7628> $1 </span>"
+  );
   return (
     <>
       <props.as

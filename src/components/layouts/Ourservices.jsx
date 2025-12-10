@@ -26,7 +26,7 @@ const Ourservices = () => {
           as={"p"}
         />
         <Flex className={"justify-between mt-14"}>
-          <div className="bg-[#EBF7E9] w-[32.5%] px-5  py-9 text-center rounded-3xl">
+          <div className="bg-[#EBF7E9] w-[32.5%] px-5  py-9 text-center rounded-3xl relative">
             <Images className={"mx-auto"} srcImg={ServiceOne} />
             <Heading
               className={
@@ -44,15 +44,16 @@ const Ourservices = () => {
               }
               as={"p"}
             />
-            <Heading
-              className={
-                "text-[#202427] text-[18px] font-oppenS font-bold mt-3.5"
-              }
-              text={"Read more"}
-              as={"h5"}
-            />
+            <div className="">
+              <div className="h-10 w-10 rounded-[50%] bg-[#FF7628] absolute left-[124px] bottom-7.5 z-10"></div>
+              <Heading
+                className="text-[#202427] text-[18px] font-oppenS font-bold mt-3.5 relative z-20"
+                text={"Read more"}
+                as={"h5"}
+              />
+            </div>
           </div>
-          <div className="bg-[#D8EAFF] w-[32.5%] px-5  py-9 text-center  rounded-3xl">
+          <div className="bg-[#D8EAFF] w-[32.5%] px-5  py-9 text-center  rounded-3xl relative">
             <Images className={"mx-auto"} srcImg={ServiceTwo} />
             <Heading
               className={
@@ -70,15 +71,16 @@ const Ourservices = () => {
               }
               as={"p"}
             />
-            <Heading
-              className={
-                "text-[#202427] text-[18px] font-oppenS font-bold mt-3.5"
-              }
-              text={"Read more"}
-              as={"h5"}
-            />
+            <div className="">
+              <div className="h-10 w-10 rounded-[50%] bg-[#FF7628] absolute left-[124px] bottom-7.5 z-10"></div>
+              <Heading
+                className="text-[#202427] text-[18px] font-oppenS font-bold mt-3.5 relative z-20"
+                text={"Read more"}
+                as={"h5"}
+              />
+            </div>
           </div>
-          <div className="bg-[#FBF1EC] w-[32.5%] px-5  py-9  text-center  rounded-3xl">
+          <div className="bg-[#FBF1EC] w-[32.5%] px-5  py-9  text-center  rounded-3xl relative">
             <Images className={"mx-auto"} srcImg={ServiceThree} />
             <Heading
               className={
@@ -96,13 +98,14 @@ const Ourservices = () => {
               }
               as={"p"}
             />
-            <Heading
-              className={
-                "text-[#202427] text-[18px] font-oppenS font-bold mt-3.5"
-              }
-              text={"Read more"}
-              as={"h5"}
-            />
+            <div className="">
+              <div className="h-10 w-10 rounded-[50%] bg-[#FF7628] absolute left-[124px] bottom-7.5 z-10"></div>
+              <Heading
+                className="text-[#202427] text-[18px] font-oppenS font-bold mt-3.5 relative z-20"
+                text={"Read more"}
+                as={"h5"}
+              />
+            </div>
           </div>
         </Flex>
       </Container>

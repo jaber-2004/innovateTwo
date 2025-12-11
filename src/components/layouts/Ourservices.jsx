@@ -4,8 +4,8 @@ import Flex from "../Flex";
 import Heading from "../Heading";
 import Images from "../Images";
 import ServiceOne from "/src/assets/service.png";
-import ServiceTwo from "/src/assets/ServiceTwo.png";
-import ServiceThree from "/src/assets/Servicethree.png";
+import ServiceTwo from "/src/assets/serviceTwo.png";
+import ServiceThree from "/src/assets/servicethree.png";
 
 const Ourservices = () => {
   return (

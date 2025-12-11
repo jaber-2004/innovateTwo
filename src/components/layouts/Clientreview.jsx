@@ -33,12 +33,11 @@ const Clientreview = () => {
               }
               as={"p"}
             />
-            <div className="flex gap-x-5 mt-5 text-[#FF7628]">
-              <Link>
+            <div className="flex gap-x-5 mt-5">
+              <Link className="hover:text-[#FF7628] duration-300">
                 <FaChevronCircleLeft className="text-3xl" />
               </Link>
-              <Link>
-                {" "}
+              <Link className="hover:text-[#FF7628] duration-300">
                 <FaChevronCircleRight className="text-3xl" />
               </Link>
             </div>

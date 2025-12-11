@@ -1,6 +1,7 @@
 import Banner from "../layouts/Banner";
 import Clientreview from "../layouts/Clientreview";
 import Ourcreative from "../layouts/Ourcreative";
+import Ourlatest from "../layouts/Ourlatest";
 
 import Ourservices from "../layouts/Ourservices";
 import Whoweare from "../layouts/Whoweare";
@@ -15,6 +16,7 @@ const Home = () => {
       <Workshowcase/>
       <Ourcreative/>
       <Clientreview/>
+      <Ourlatest/>
     </>
   );
 };

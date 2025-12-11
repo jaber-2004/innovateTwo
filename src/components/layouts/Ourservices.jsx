@@ -45,7 +45,7 @@ const Ourservices = () => {
               as={"p"}
             />
             <div className="">
-              <div className="h-10 w-10 rounded-[50%] bg-[#FF7628] absolute left-[124px] bottom-7.5 z-10"></div>
+              <div className="h-10 w-10 rounded-[50%] bg-[#FF7628] absolute left-[125px] bottom-[29px] z-10"></div>
               <Heading
                 className="text-[#202427] text-[18px] font-oppenS font-bold mt-3.5 relative z-20"
                 text={"Read more"}
@@ -72,7 +72,7 @@ const Ourservices = () => {
               as={"p"}
             />
             <div className="">
-              <div className="h-10 w-10 rounded-[50%] bg-[#FF7628] absolute left-[124px] bottom-7.5 z-10"></div>
+              <div className="h-10 w-10 rounded-[50%] bg-[#FF7628] absolute left-[125px] bottom-[29px] z-10"></div>
               <Heading
                 className="text-[#202427] text-[18px] font-oppenS font-bold mt-3.5 relative z-20"
                 text={"Read more"}
@@ -99,7 +99,7 @@ const Ourservices = () => {
               as={"p"}
             />
             <div className="">
-              <div className="h-10 w-10 rounded-[50%] bg-[#FF7628] absolute left-[124px] bottom-7.5 z-10"></div>
+              <div className="h-10 w-10 rounded-[50%] bg-[#FF7628] absolute left-[125px] bottom-[29px] z-10"></div>
               <Heading
                 className="text-[#202427] text-[18px] font-oppenS font-bold mt-3.5 relative z-20"
                 text={"Read more"}
